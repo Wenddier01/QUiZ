@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, rgb(27, 106, 196), rgb(14, 17, 173));
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body.inicio .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent; /* Removendo o fundo branco */
+  padding: 20px;
+  box-shadow: none; /* Removendo a sombra */
+}
+
+body.inicio .content {
+  flex: 1; /* Ocupa o espaço disponível */
+  text-align: center;
+}
+
+body.inicio h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+body.inicio button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 27px;
+  cursor: pointer;
+  background-color: #1c9220;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+body.inicio button:hover {
+  background-color: #45a049;
+}
+
+.biology-image {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+.nome {
+  margin-top: 35%;
+ position: absolute;
+
+}

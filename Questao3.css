@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(27, 106, 196), rgb(14, 17, 173));
+    color: white;
+    margin: 0;
+    display: flex;
+    margin-left: 543px;
+    margin-top: 300px;
+    height: 100vh;
+}
+body.quiz .quiz-container {
+    text-align: center;
+}
+
+body.quiz h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+body.quiz .question {
+    margin: 20px 0;
+}
+
+body.quiz .options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1c9220;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+body.quiz .options button:hover {
+    background-color: #45a049;
+}
+.tres{
+    left: 0;
+    top: 0;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+}
+.biology-image {
+    margin-top: -275px;
+    right: 640px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  }
